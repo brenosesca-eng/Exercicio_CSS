@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desaio 04</title>
+    <style>
+        *{
+           margin: 0 auto;
+            padding: 0px;
+        }
+        .menu{
+            background-color: rgb(89, 84, 84);
+            width: 100%;
+            height: 40px;
+        }
+         .menu ul{
+            padding: 0;
+            max-width: 300px;
+            text-align: center;
+        }
+        .menu ul li{          
+            background-color: rgb(89, 84, 84);
+            color: rgb(0, 0, 0);
+            float: left;
+            width: 100px;
+            height: 40px;
+            display: inline-block;
+            text-align: center;
+            line-height: 40px;
+            position: relative;
+            
+        }
+        .menu ul li:hover{
+            background-color:rgba(0, 0, 255, 0.411); 
+            
+        }
+        
+        .menu ul ul{
+            display: none;
+        }
+        .menu ul li:hover > ul{
+            display: block;
+        }
+        
+        .menu ul ul ul{
+            margin-left: 102px;
+            position: absolute;
+            top: 0px;
+        }
+        .menu ul ul li:hover{
+            background-color:rgba(3, 3, 166, 0.544); 
+        }
+        .menu ul ul ul li:hover{
+            background-color:rgba(2, 2, 88, 0.542); 
+        }
+        .title{
+            text-align: center;
+            color:rgb(0, 0, 0);
+            background-color:rgb(89, 84, 84)
+        }
+      
+    </style>
+</header>
+<body>
+    <div class="title">
+        <h1>Casa de Carnes Sesca</h1>
+    </div>
+    <nav class="menu">
+     <ul> 
+        <li> Frutas
+            <ul>
+                <li>Pera</li>
+        <li> Banana</li>
+        <li>Abacate
+          <ul>
+            <li>Avocado</li>
+            <li>Nacional</li>
+            <li>Importado</li>
+          </ul>
+        <li>Abacaxi</li>
+            </ul>
+        </li>
+        <li>Legumes
+          <ul>
+            <li>Abóbora</li>
+            <li>Beterraba
+                <ul>
+                    <li>vermelha</li>
+                    <li>Amarela</li>
+                    <li>Branca</li>
+                </ul>
+            </li>
+            <li>Cenoura</li>
+          </ul>
+        </li>
+        <li>Carnes
+          <ul>
+            <li>Boi
+                <ul>
+                    <li>Patinho</li>
+                    <li> Fraldinha</li>
+                    <li>Filé mignon</li>
+                </ul>
+            </li>
+            <li>Frango
+             <ul>
+                <li>Peito</li>
+                <li>Coração</li>
+                <li>Coxinha</li>
+             </ul>
+            </li>
+            <li>Porco
+             <ul>
+                <li>Linguiça</li>
+                <li>Bisteca</li>
+                <li>Lombo</li>
+             </ul>
+            </li>
+          </ul>
+        </li>
+    </ul>
+</nav>
+   
+</body>
+</html>
