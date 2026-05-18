@@ -27,6 +27,24 @@
         .classe p{
             color: rgb(226, 43, 186);
         }
+        .botao-imagem {
+    display: flex;
+    align-items: center; /* Centraliza a imagem e o texto verticalmente */
+    gap: 10px; /* Espaço entre a imagem e o texto */
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Controla o tamanho da imagem */
+.botao-imagem img {
+    width: 20px; 
+    height: 20px;
+}
+    
 </style>
 <body>
     <div>
@@ -53,5 +71,10 @@
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis iusto cupiditate hic expedita inventore quidem corrupti molestiae, minus error impedit, non porro laboriosam quo. Placeat mollitia reprehenderit laboriosam alias repellendus?
         </p>
     </div>
+    <button class="botao-imagem">
+    <img src="caminho-da-sua-imagem.png" alt="Ícone">
+    Clique Aqui
+</button>
+  
 </body>
 </html>
